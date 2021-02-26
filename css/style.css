@@ -1,0 +1,28 @@
+/*COMMON*/
+
+
+/*HEADER*/
+
+.small-wrapper{
+    max-width: 1000px;
+    margin: auto;
+    /*test*/
+    background-color: coral;
+    height: 200px;
+}
+
+.menu{
+    list-style-type: none;
+}
+
+.menu li{
+    display: inline-block;
+}
+
+.menu li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-size: 12px;
+}
+/*FINE HEADER*/
