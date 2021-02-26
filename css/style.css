@@ -150,6 +150,14 @@ header .top-nav{
     padding: 70px 0;
 }
 
+@media all and (max-width:991px){
+    .question .col-xs-12,
+    .question .col-md-12{
+        padding-top: 100px;
+        text-align: left;
+        padding-left: 40px;
+    }
+}
 /*fine section phone*/
 
 
