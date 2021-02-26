@@ -18,6 +18,9 @@ body{
     font-size: 12px;
 }
 
+img{
+    max-width: 100%;
+}
 
 /*HEADER*/
 
@@ -87,5 +90,19 @@ header .top-nav{
     margin-bottom: 10px;
 }
 
-
 /*FINE HEADER*/
+
+/*MAIN*/
+
+/*section products*/
+
+.col_inner{
+    padding: 20px;
+}
+
+.product-content{
+    background-color: lightgray;
+    text-align: center;
+}
+
+/*FINE MAIN*/
