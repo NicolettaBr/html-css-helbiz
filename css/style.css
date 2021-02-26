@@ -64,6 +64,26 @@ header .top-nav{
     border: none;
 }
 
+.teaser{
+    color: white;
+    text-align: center;
+    padding: 20px;
+    width: 60%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+ .teaser h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+ .teaser p{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
 /*fine top-nav*/
 
 /*jumbotron*/
@@ -73,28 +93,7 @@ header .top-nav{
     height: 500px;
     background-size: cover;
     background-repeat: no-repeat;
-    color: white;
-    text-align: center;
     position: relative;
-
-}
-
-.jumbotron .teaser{
-    padding: 20px;
-    width: 60%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-.jumbotron .teaser h2{
-    font-size: 40px;
-    margin-bottom: 20px;
-}
-
-.jumbotron .teaser p{
-    font-size: 15px;
-    margin-bottom: 10px;
 }
 
 /*FINE HEADER*/
@@ -160,5 +159,23 @@ header .top-nav{
 }
 /*fine section phone*/
 
+/*section mobility*/
+
+.box-mobility{
+    width: 80%;
+    margin: auto;
+    height: 300px;
+    background-image: url(../img/ScooterHelbiz-2400.jpg);
+    background-size: cover;
+    background-position: 100% 55%;
+    position: relative;
+}
+
+.box-mobility .teaser{
+    width: 40%;
+    left: 70%;
+}
+
+/*fine section mobility*/
 
 /*FINE MAIN*/
